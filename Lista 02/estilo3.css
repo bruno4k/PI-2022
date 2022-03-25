@@ -1,0 +1,112 @@
+body{
+    background-color: #dddd;
+}
+
+ul {
+    margin: 0;
+    padding-top: 1%;
+    float: right;
+    width: 40%;
+}
+
+li{
+    float: left;
+    list-style: none;
+    padding: 0 15px 0 0;
+}
+
+li a{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 2.5ch;
+}
+
+div.header{
+    height: 10vh;
+    width: 100vw;
+}
+
+div.header p{
+    color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+div.header h1{
+    float: left;
+    font-size: 7ch;
+    margin: 0;
+    padding: 0;
+}
+
+div.description{
+    color: black;
+    border-width: 1px;
+    border-color: rgba(185, 183, 183, 0.867);
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+}
+
+div.description p{
+    font-size: 3ch;
+    color: grey;
+    font-weight: bold;
+}
+
+div.description p b{
+    color: black;
+}
+
+div.content{
+    padding: 0;
+    margin: 0;
+}
+
+div.contentTitle{
+    margin-top: 2ch;
+    float: left;
+    width: 20%;
+    height: 8vh;
+    align-items: center;
+    display: flex;
+
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-width: 1px;
+    border-bottom: 0.1%;
+    border-color: rgba(185, 183, 183, 0.867);
+}
+
+div.contentTitle p{
+    float: right;
+    margin-left: 50%;
+}
+
+div.contentTitle b{
+    font-size: 3ch;
+}
+
+div.contentGrid{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    float: right;
+    width: 80%;
+}
+
+div.contentGrid img{
+    margin-left: 20ch;
+    margin-top: 5ch;
+}
+
+div.contentText{
+    margin-top: 2ch;
+    float: left;
+    width: 20%;
+}
+
+
+
