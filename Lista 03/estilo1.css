@@ -1,0 +1,60 @@
+a{
+    color: rgb(8, 197, 197);
+    
+}
+
+a:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.button{
+    border-radius: 4px;
+    padding: 3px;
+    height: 3vh;
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+.button2{
+    border-radius: 4px;
+    padding: 3px;
+    background-color: blue;
+    color: rgb(187, 187, 187);
+    height: 5vh;
+    font-size: large;
+    margin-left: 5vh;
+    cursor: pointer;
+}
+
+
+div.sidebar{
+    float: left;
+    width: 20%;
+    background-color: rgb(231, 231, 231);
+    border-radius: 7px;
+
+}
+
+div.info{
+    float: left;
+    width: 70%;
+    background-color: rgb(216, 216, 216);
+    border-radius: 7px;
+    margin-left: 3vh;
+}
+
+div.info>h1, div.info>h2{
+    margin-left: 5vh;
+    margin-right: 4vh;
+}
+
+div.content{
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat(3, auto);
+    float: left;
+    margin-left: 3vh;
+    
+
+}
