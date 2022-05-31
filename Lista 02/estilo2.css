@@ -1,0 +1,28 @@
+.header{
+    background-color: rgb(168, 212, 148);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    margin-bottom: 1px;
+}
+
+.content-left{
+    background-color: grey;
+    height: 30vh;
+    width: 40vw;
+    float: left;
+}
+
+.content-right{
+    background-color: rgb(192, 192, 192);
+    height: 30vh;
+    width: 59.1vw;
+    float: right;
+    margin-bottom: 1px;
+}
+
+.footer{
+    background-color: rgb(168, 212, 148);
+    clear: both;
+}
