@@ -1,0 +1,25 @@
+div{
+    display: none;
+}
+
+#div-1{
+    background-color: lightblue;
+}
+
+#div-2{
+    background-color: pink;
+}
+
+#div-3{
+    background-color: lightgreen;
+}
+
+#div-4{
+    background-color: lightslategrey;
+}
+
+li{
+    cursor: pointer;
+    list-style: none;
+    padding: 10px;
+}

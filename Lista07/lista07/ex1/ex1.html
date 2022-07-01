@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício 1</title>
+</head>
+<body>
+    <main>
+        <h2>Contact Form</h2>
+        <form action="javascript: send();">
+            <div class="input-field">
+                <input type="text" id="name" placeholder="Name">
+            </div>
+            <div class="input-field">
+                <input type="text" id="email" placeholder="Email">
+            </div>
+            <div class="input-field">
+                <textarea cols="30" rows="6" id="message" placeholder="Message" style="resize: none;"></textarea>
+            </div>
+            <div class="input-checkbox">
+                <input type="checkbox"> Send a copy to my email address
+            </div>
+            <div class="input-send">
+                <input id="send-btn" type="submit" value="SEND">
+            </div>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
