@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  width: 50vh;
+  background-color: azure;
+  border: 1px solid #01285c;
+  margin: 0 auto;
+}
+
+.search{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px;
+  font-size: 1rem;
+}
+
+#btn_search{
+  height: 30px;
+  width: 35px;
+  background-color: #12ce6d;
+  color: #F2F2F2;
+  border-radius: 0px 6px 6px 0px;
+  border: none;
+  cursor: pointer;
+}
+
+#btn_search:hover{
+  transition: .3s ease-in;
+  background-color: #11af5e;
+}
+
+#input_search{
+  text-indent: 10px;
+  outline: none;
+  border: 1px solid gainsboro;
+  font-size: 1rem;
+}
+
+#input_search:focus{
+  border: 1px solid rgb(161, 160, 160);
+}
+
+.fish-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  gap: 10px;
+}
+
+.tips{
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+#tip-text{
+  text-align: center;
+  padding: 10px;
+}
+
+.p_info{
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.p_info:hover{
+  background-color: gainsboro;
+  transition: .3s ease-in;
+}
+
+.p-tip{
+  display: flex;
+  justify-content: space-around;
+}
+
+#error{
+  width: 400px;
+  border-radius: 5px;
+  text-align: center;
+  color: red;
+  background-color: rgb(255, 142, 142);
+  margin: 10px auto;
+}
